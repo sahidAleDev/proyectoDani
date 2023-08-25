@@ -13,6 +13,9 @@ body {
     height: 200px;
     border-radius: 200px;
     border: none;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
 }
 
 .enlace:hover {
