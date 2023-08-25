@@ -1,0 +1,54 @@
+body {
+    background: url('fondo.svg') no-repeat center center fixed; 
+}
+
+.enlace {
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: none;
+}
+
+.enlace:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.2);
+}
+
+.organizador {
+    background-color: #7D98A1;
+}
+
+.evaluador {
+    background-color: #5E6572;
+}
+
+.ponente {
+    background-color: #A9B4C2;
+}
+
+.enlace span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FCF7FF;
+    text-transform: uppercase;
+    padding: 4rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .enlace {
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+    }
+
+    .enlace span {
+        font-size: 1rem;
+    }
+    
+}
